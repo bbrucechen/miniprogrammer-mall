@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "w-swiper":"/components/w-swiper/w-swiper",
+    "w-recommend":"/pages/home/childComps/recommend/recommend",
+    "w-popular":"/pages/home/childComps/popular/popular",
+    "w-tab-control":"/components/w-tab-control/w-tab-control",
+    "w-goods":"/components/w-goods/w-goods",
+    "w-backtop":"/components/w-backtop/w-backtop"
+  },
+  "navigationBarTitleText": "购物街",
+  "enablePullDownRefresh": true
+}

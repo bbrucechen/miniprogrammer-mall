@@ -1,0 +1,22 @@
+/* pages/home/home.wxss */
+.recommend {
+  display: flex;
+  margin-top: 40rpx;
+  border-bottom: 15rpx solid #eee;
+  padding-bottom: 40rpx;
+}
+
+.recommend-item {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30rpx;
+  color: #555;
+}
+
+.recommend-item image {
+  width: 160rpx;
+  height:160rpx;
+  margin-bottom: 20rpx;
+}

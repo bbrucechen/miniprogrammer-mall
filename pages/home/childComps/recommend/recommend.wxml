@@ -1,0 +1,7 @@
+<view class="recommend">
+<block wx:for="{{recommends}}" wx:key="{{index}}">
+  <view class="recommend-item">
+    <image src="{{item.image}}" bindload="imageLoad"></image>
+    <text>{{item.title}}</text>
+  </view>
+</block></view>

@@ -1,0 +1,14 @@
+<!-- 1.轮播图模块 -->
+<w-swiper banners="{{banners}}"/>
+<!-- 2.推荐模块 -->
+<w-recommend recommends="{{recommends}}"  bind:imageLoad="imageLoad"/>
+<!-- 3.流行模块 -->
+<w-popular/>
+<!-- 4.tab-control模块 -->
+<w-tab-control title="{{['流行','新款','精选']}}" id="tab-control" bind:tabClick="tabClick" class="{{isTabFixed? 'fixed':''}}"/>
+<w-tab-control title="{{['流行','新款','精选']}}" bind:tabClick="tabClick" class="{{isTabFixed? fixed:''}}" wx:if="{{isTabFixed}}"/>
+<!-- 5.商品展示模块 -->
+<w-goods goods="{{goods[goodsType[currentIndex]].list}}" />
+<!-- 6.回到顶部模块 -->
+<!-- hidden对于自定义组件无效 -->
+<w-backtop wx:if="{{isShow}}"/>
